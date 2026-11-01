@@ -8,6 +8,17 @@ Quizzical retrieves questions from the Open Trivia Database API and provides an 
 
 [Play Quizzical](https://quizzical-react-saulstrange.netlify.app/)
 
+## 📸 Screenshots
+
+### Start Screen
+![Quizzical Start Screen](screenshots/Quizzical_Start_Screen.png)
+
+### Quiz Screen
+![Quizzical Quiz Screen](screenshots/Quizzical_Answer_Selection.png)
+
+### Results Screen
+![Quizzical Results Screen](screenshots/Quizzical_Check_Answers.png)
+
 ## ✨ Features
 
 - **Customizable quizzes:** Choose a category, difficulty level, and number of questions (5, 10, or 15).
