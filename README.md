@@ -1,16 +1,77 @@
-# React + Vite
+# 🧠 Quizzical
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive trivia quiz application built with React, allowing users to test their knowledge across multiple categories and difficulty levels.
 
-Currently, two official plugins are available:
+Quizzical retrieves questions from the Open Trivia Database API and provides an interactive quiz experience with randomized answers, instant scoring, and customizable quiz settings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[Play Quizzical](https://quizzical-react-saulstrange.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Customizable quizzes:** Choose a category, difficulty level, and number of questions (5, 10, or 15).
+- **Dynamic questions:** Fetches trivia questions from the Open Trivia Database API.
+- **Randomized answers:** Shuffles answer choices for each question.
+- **Interactive selections:** Highlights selected answers and prevents submission until all questions are answered.
+- **Instant results:** Displays correct answers, incorrect selections, and the final score.
+- **Replay functionality:** Start a new quiz with the same settings or return to customize them.
+- **Responsive design:** Adapts to desktop and mobile screen sizes.
+- **Loading and error handling:** Provides feedback during API requests and when requests fail.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Open Trivia Database API
+- `he` — HTML entity decoding library
+
+## 🧠 What I Learned
+
+Building Quizzical helped me strengthen my understanding of:
+
+- Managing application state with React's `useState` hook.
+- Passing data and callback functions between components using props.
+- Fetching and processing asynchronous API data.
+- Using conditional rendering to manage different application screens.
+- Working with arrays and objects to track user selections and calculate scores.
+- Implementing the Fisher–Yates shuffle algorithm.
+- Designing responsive interfaces with CSS Flexbox and media queries.
+- Deploying a React application using GitHub and Netlify.
+
+## 💻 Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ScriptSaul/Quizzical.git
+```
+
+Navigate into the project:
+
+```bash
+cd Quizzical
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## 📚 Acknowledgments
+
+Trivia questions are provided by the [Open Trivia Database](https://opentdb.com/).
+
+Built as a solo project while studying frontend development through Scrimba.
